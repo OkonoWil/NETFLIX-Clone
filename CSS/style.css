@@ -1,0 +1,63 @@
+:root{
+    --red:red    ;
+    --bg_dark:#1f1f1f;
+    --text_dark:#686868;
+    --text_light:#F3F3F3;
+}
+@font-face{
+    font-family: "font0";
+    src : url(../assets/Poppins-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'font0', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg_dark);
+    color: var(--text_light);
+}
+
+/************************** En tête **************************/
+header{
+    background-color: #141414;
+    color: var(--text_light);
+    padding: 10px 30px 5px 10px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'font0', Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+nav a:hover{
+    color: var(--red);
+}
+nav .nav_gauche{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav .nav_droite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+nav .nav_gauche .div_menu ul{
+    list-style: none;
+}
+nav .nav_gauche .div_menu li{
+    display: inline-block;
+    margin-left: 15px;
+}
+nav .nav_droite div{
+    margin-left: 25px;
+}
+nav .nav_gauche .div_menu, nav .nav_droite{
+    margin-top: 5px;
+}
