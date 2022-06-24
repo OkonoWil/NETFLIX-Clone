@@ -1,7 +1,7 @@
 :root{
     --red:red    ;
     --bg_dark:#1f1f1f;
-    --text_dark:#686868;
+    --text_dark:#9c9a9a;
     --text_light:#F3F3F3;
 }
 @font-face{
@@ -23,7 +23,7 @@ body{
 header{
     background-color: #141414;
     color: var(--text_light);
-    padding: 10px 30px 5px 10px;
+    padding: 20px 35px 10px 30px;
 }
 nav{
     display: flex;
@@ -60,4 +60,26 @@ nav .nav_droite div{
 }
 nav .nav_gauche .div_menu, nav .nav_droite{
     margin-top: 5px;
+}
+
+
+/************************** Pieds de page **************************/
+footer{
+    color: var(--text_dark);
+    padding: 20px 35px 10px 30px;
+}
+footer a{
+    text-decoration: none;
+    font-family: 'font0', Arial, Helvetica, sans-serif;
+    color: var(--text_dark);
+}
+footer .footer_botton{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer .footer_botton p{
+    margin: 100px, 0px, 0px, 20px;
 }
