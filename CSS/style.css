@@ -73,6 +73,23 @@ footer a{
     font-family: 'font0', Arial, Helvetica, sans-serif;
     color: var(--text_dark);
 }
+footer .footer_top .footer_ico{
+    font-size: 2em;
+}
+footer .footer_top .footer_lien{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer_top .footer_lien div{
+    display:flex;
+    flex-direction: column;
+}
+footer .footer_top .footer_lien div a{
+    margin: 5px 0px;
+}
+footer .footer_top{
+    margin: 10px 0px 75px 0px;
+}
 footer .footer_botton{
     display: flex;
     flex-direction: column;
