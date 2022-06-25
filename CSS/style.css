@@ -78,14 +78,18 @@ footer .footer_top .footer_ico{
 }
 footer .footer_top .footer_lien{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 footer .footer_top .footer_lien div{
     display:flex;
     flex-direction: column;
+    width: 25%;
 }
 footer .footer_top .footer_lien div a{
     margin: 5px 0px;
+}
+footer .footer_top .footer_lien div :hover{
+    text-decoration: underline;
 }
 footer .footer_top{
     margin: 10px 0px 75px 0px;
