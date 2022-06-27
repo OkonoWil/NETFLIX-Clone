@@ -107,3 +107,26 @@ footer .footer_botton p{
 
 
 /************************** Session **************************/
+main{
+    height: auto;
+    width: 100%;
+    padding: 50px 30px 10px 30px;
+}
+main section{
+    padding: 50px 0px 30px 0px;
+}
+main section h2{
+    padding-bottom: 30px;
+}
+main section div{
+    display: flex;
+    overflow-x: auto;
+}
+main section div a{
+    height: 100%;
+    padding-left: 5px;
+    transition: transform 0.25s;
+}
+main section div a:hover{
+    transform: scale(1.1);
+}
